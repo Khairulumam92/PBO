@@ -11,11 +11,12 @@ public class ArrayDequeExam {
         deque.addLast("Caca");
         deque.addFirst("Hendri");
 
-        // mengakses data yang ada dalam deque
-        System.out.println("Orang dengan prioritas tertinggi : " + deque.getFirst());
-        System.out.println("Nama terakhir : " + deque.getLast());
-
         // menampilkan isi deque
         System.out.println("Isi deque : " + deque);
+
+        // mengakses data yang ada dalam deque
+        System.out.println("Nama paling pertama : " + deque.getFirst());
+        System.out.println("Nama terakhir : " + deque.getLast());
+
     }
 }
