@@ -14,7 +14,7 @@ public class ArrayDequeExam {
         // menampilkan isi deque
         System.out.println("Isi deque : " + deque);
 
-        // mengakses data yang ada dalam deque
+        // mengakses data yang ada dalam list deque
         System.out.println("Nama paling pertama : " + deque.getFirst());
         System.out.println("Nama terakhir : " + deque.getLast());
 
