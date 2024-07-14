@@ -16,7 +16,7 @@ public class PriorotyQueueExam {
         System.out.println("Isi antrian : " + queue);
 
         // mengakses nama yang di prioritaskan
-        System.out.println("Orang dengan prioritas tertinggi : " + queue.peek());
+        System.out.println("Nama yang muncul pertama : " + queue.peek());
 
         // menampilkan Nama yang dihapus
         System.out.println("Nama yang dihapus : " + queue.poll());
